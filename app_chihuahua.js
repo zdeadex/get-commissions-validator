@@ -20,8 +20,7 @@ async function getPrice(formattedDate) {
 }
 
 async function start() {
-  const allCommissions = await axios(lcdUrl + '/cosmos/tx/v1beta1/txs?events=message.sender=%27'+addVal+'%27&events=message.action=%27/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission%27') 
-
+  var someObject = require('./2021_chihuahua.json')
   console.log('Tx found: ' + allCommissions.data.tx_responses.length)
  
   await allCommissions.data.tx_responses.forEach(async function (item) { 
