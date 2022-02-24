@@ -20,7 +20,7 @@ async function getPrice(formattedDate) {
 }
 
 async function start() {
-  var someObject = require('./2021_chihuahua.json')
+  const allCommissions = var someObject = require('./2021_chihuahua.json')
   console.log('Tx found: ' + allCommissions.data.tx_responses.length)
  
   await allCommissions.data.tx_responses.forEach(async function (item) { 
