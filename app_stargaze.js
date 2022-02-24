@@ -4,7 +4,7 @@ const fs = require('fs');
 var finalOutput = [];
 
 
-const lcdUrl = 'http://api.stargaze.stakelab.fr'
+const lcdUrl = 'https://rest.stargaze.publicawesome.de'
 const addVal = 'starsvaloper1mz2qks48v486d9m8wp4l9fxm2e9l0e0kzk79m5'
 const udenom = 'ustars'
 const denom = 'stars'
