@@ -11,8 +11,6 @@ const denom = 'huahua'
 const idCoinGeeko = 'chihuahua-token'
 const fileName = 'commissionValidator_'+denom+'.csv'
 
-window.open(lcdUrl + '/cosmos/tx/v1beta1/txs?events=message.sender=%27'+addVal+'%27&events=message.action=%27/cosmos.distribution.v1beta1.MsgWithdrawValidatorCommission%27')
-sleep 10
 
 async function getPrice(formattedDate) {
   // TODO
